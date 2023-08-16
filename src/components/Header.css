@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background-color: #44f03e;
+    clip-path: circle(95% at 40% -151%);
+    display: flex;
+
+}
+
+.img_box {
+    width: 30%;
+}
+
+.img_box > img {
+    width: 70%;
+}
+
+.text_box {
+    width: 70%;
+    padding: 2rem 0;
+}
+
+.text_box h2 {
+    font-size: 64px;
+    color: #095e06;
+}
+
+.text_box h1 {
+    font-size: 88px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #80002b;
+}
